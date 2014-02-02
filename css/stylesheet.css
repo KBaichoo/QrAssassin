@@ -1,0 +1,105 @@
+body{
+			font: 30px Arial;
+}
+input{
+			height:30px;
+			margin-top: 15px;
+			width:150px;
+}
+img{
+			height:30px;
+			margin-right:10px;
+}
+.domainAd {
+			position:fixed;
+			right:0px;
+			bottom:0px;
+}
+a{
+	text-decoration: none;
+	color:#DF0000;
+}
+
+a:hover{
+	color:#7A0000;
+}
+
+/* Login Page */
+.forms {
+			position: relative;
+			top: 100px;
+			width:500px;
+			margin:auto;
+			padding:20px;
+}
+.forms input{
+			display:block;
+}
+.forms h3{
+			text-align: center;
+}
+#loginForm{
+			margin-right: 100px;
+			float:left;
+			height:300px;
+}
+#registerForm{
+			height:300px;
+			float:right;
+			/*display:inline-block;*/
+}
+
+/*Home Page*/
+nav{
+			position: fixed;
+			right: 20px;
+			top: 20px;
+}
+.content{
+			width:550px;
+			height: 300px;
+			margin: auto;
+			margin-top: 150px;
+			border: 2px solid black;
+			padding:15px;
+}
+.content div{
+			margin-top:30px;
+}
+.gameMenu{
+			float:right;
+			height:100%;
+			width:200px;
+			text-align:center;
+			margin-top: 0 !important;
+}
+.gameMenu form{
+			margin-top: 65px !important
+}
+.gameMenu h3{
+			margin: 2px 0;
+}
+.gameMenu .killLog{
+			width:220px;
+			height: 220px;
+			overflow: auto;
+			border: 1px solid black;
+			margin: 0 0 15px -15px;
+}
+.gameMenu table{
+			border-collapse: collapse;
+}
+.gameMenu table thead{
+			font-weight:bold;
+			padding:2px;
+}
+.gameMenu table td{
+			border: 1px solid black;
+			width: 70px;
+			height: 60px;
+			padding: 2px;
+}
+.gameInfo{
+	margin-top: 20px !important;
+	font:24px arial;
+}
